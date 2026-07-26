@@ -3,4 +3,16 @@
 ## tasuraringu
 japan
 
+puliteへようこそ!
+#### 現在のpuliteシリーズ
+##### Original pulite (Original)
+##### " 新・pulite (new)
+##### " pulite.home (home)
+##### " pulite.world (world)
+*未完成の物には"が付いています
+
+#### Original pulite
+
+
+
 (C) 2026 pulite/tasuraringu. All Rights Reserved.
