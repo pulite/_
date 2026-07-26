@@ -12,7 +12,7 @@ japan
 *未完成の物には"が付いています
 
 #### Original pulite
-![Original pulite logo](https://github.com/pulite/_/blob/main/_/Original/logo.png)
+![Original pulite logo](https://github.com/pulite/_/blob/main/Original/logo.png)
 https://pulite.github.io/_/Origianl
 #### バージョン
 ロイロノート・スクール版
