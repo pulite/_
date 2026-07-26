@@ -13,7 +13,7 @@ japan
 
 #### Original pulite
 ![Original pulite logo](https://github.com/pulite/_/blob/main/_/Original/logo.png)
-(https://pulite.github.io/_/Origianl)
+https://pulite.github.io/_/Origianl
 #### バージョン
 ロイロノート・スクール版
 
