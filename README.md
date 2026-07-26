@@ -14,8 +14,8 @@ japan
 ![Original pulite logo](https://github.com/pulite/_/blob/main/Original/logo.png)
 #### [Original pulite](https://pulite.github.io/_/Original)
 #### バージョン
-<a href="https://github.com/pulite/_/blob/main/Original/d/loilonote/pulite.loilonote" download>
-  <button>ロイロノート・スクール版</button>
+<a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/Original/d/loilonote/pulite.loilonote" download>
+  ロイロノート・スクール版
 </a>
 
 (C) 2026 pulite/tasuraringu. All Rights Reserved.
