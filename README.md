@@ -11,8 +11,8 @@ japan
 ##### " pulite.world (world)
 *未完成の物には"が付いています
 
-#### [Original pulite](https://pulite.github.io/_/Origianl)
 ![Original pulite logo](https://github.com/pulite/_/blob/main/Original/logo.png)
+#### [Original pulite](https://pulite.github.io/_/Original)
 #### バージョン
 ロイロノート・スクール版
 
