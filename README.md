@@ -11,14 +11,29 @@ japan
 ##### " pulite.world (world)
 *未完成の物には"が付いています
 
-![Original pulite logo](https://github.com/pulite/_/blob/main/Original/logo.png)
+![Original pulite](https://github.com/pulite/_/blob/main/Original/logo.png)
 #### [初代pulite](https://pulite.github.io/_/Original)
 puliteの始まり、初代pulite。ロイロノート・スクールの機能をフル活用し、ロイロノート内でチャットできるようにしたもの。
 #### バージョン
 <a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/Original/d/loilonote/pulite.loilonote" download>
   ロイロノート・スクール版
 </a>
+  1.ファイルをダウンロードする
+  2.ロイロノート・スクールにインポートする
 
+![new pulite](https://github.com/pulite/_/blob/main/new/logo.png)
+#### [新・pulite](https://pulite.github.io/_/new)
+初めてのpuliteの次回作。標準のweb化によって、自由度が大幅に上がる。
+"
+#### バージョン
+[web版](https://pulite.github.io/_/new)
+  1.webにアクセスする
+<a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/new/d/dt.txt" download>
+  web dt版
+</a>
+  1.ファイルをダウンロードする
+  2.ファイルの中身をコピーする
+  3.url欄にペーストする
 
 
 (C) 2026 pulite/tasuraringu. All Rights Reserved.
