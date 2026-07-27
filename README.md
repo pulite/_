@@ -30,7 +30,7 @@ puliteの始まり、初代pulite。ロイロノート・スクールの機能�
 [web版](https://pulite.github.io/_/new)  
 1.webにアクセスする  
   
-<a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/new/d/dt/pulite.txt" download>
+<a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/new/d/dt/dt.txt" download>
   web dt版
 </a>
 
