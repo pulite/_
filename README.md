@@ -18,6 +18,7 @@ puliteの始まり、初代pulite。ロイロノート・スクールの機能�
 <a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/Original/d/loilonote/pulite.loilonote" download>
   ロイロノート・スクール版
 </a>
+
 1.ファイルをダウンロードする
 2.ロイロノート・スクールにインポートする
 
@@ -28,14 +29,15 @@ puliteの始まり、初代pulite。ロイロノート・スクールの機能�
 #### バージョン
 [web版](https://pulite.github.io/_/new)
 
-  1.webにアクセスする
+1.webにアクセスする
+
 <a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/new/d/dt/pulite.txt" download>
   web dt版
 </a>
+
 1.ファイルをダウンロードする
 2.ファイルの中身をコピーする
-  
-  3.url欄にペーストする
+3.url欄にペーストする
 
 
 (C) 2026 pulite/tasuraringu. All Rights Reserved.
