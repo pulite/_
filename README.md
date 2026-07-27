@@ -27,8 +27,7 @@ puliteの始まり、初代pulite。ロイロノート・スクールの機能�
 初めてのpuliteの次回作。標準のweb化によって、自由度が大幅に上がる。
 "
 #### バージョン
-[web版](https://pulite.github.io/_/new)
-
+[web版](https://pulite.github.io/_/new)  
 1.webにアクセスする  
   
 <a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/new/d/dt/pulite.txt" download>
