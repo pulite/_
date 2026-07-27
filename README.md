@@ -20,6 +20,7 @@ puliteの始まり、初代pulite。ロイロノート・スクールの機能�
 </a>
 
 1.ファイルをダウンロードする
+
 2.ロイロノート・スクールにインポートする
 
 ![new pulite](https://github.com/pulite/_/blob/main/new/logo.png)
@@ -36,7 +37,9 @@ puliteの始まり、初代pulite。ロイロノート・スクールの機能�
 </a>
 
 1.ファイルをダウンロードする
+
 2.ファイルの中身をコピーする
+
 3.url欄にペーストする
 
 
