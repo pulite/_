@@ -19,27 +19,23 @@ puliteの始まり、初代pulite。ロイロノート・スクールの機能�
   ロイロノート・スクール版
 </a>
 
-1.ファイルをダウンロードする
-
+1.ファイルをダウンロードする  
 2.ロイロノート・スクールにインポートする
-
+  
 ![new pulite](https://github.com/pulite/_/blob/main/new/logo.png)
 #### [新・pulite](https://pulite.github.io/_/new)
 初めてのpuliteの次回作。標準のweb化によって、自由度が大幅に上がる。
 "
 #### バージョン
 [web版](https://pulite.github.io/_/new)
-
-1.webにアクセスする
-
+1.webにアクセスする  
+  
 <a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/new/d/dt/pulite.txt" download>
   web dt版
 </a>
 
-1.ファイルをダウンロードする
-
-2.ファイルの中身をコピーする
-
+1.ファイルをダウンロードする  
+2.ファイルの中身をコピーする  
 3.url欄にペーストする
 
 
