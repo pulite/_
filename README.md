@@ -33,6 +33,7 @@ puliteの始まり、初代pulite。ロイロノート・スクールの機能�
 <a href="new/d/dt/dt.txt" download>
   web dt版
 </a>
+
 ```data:text/html,<script>fetch("https://raw.githubusercontent.com/pulite/_/refs/heads/main/new/index.html").then(r=>r.text()).then(h=>document.write(h))</script>```
 1.上のテキストをurl欄にペーストする
 
