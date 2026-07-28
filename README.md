@@ -15,7 +15,7 @@ japan
 #### [初代pulite](https://pulite.github.io/_/Original) / 2025
 puliteの始まり、初代pulite。ロイロノート・スクールの機能をフル活用し、ロイロノート内でチャットできるようにしたもの。
 #### バージョン
-<a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/Original/d/loilonote/pulite.loilonote?download" download>
+<a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/Original/d/loilonote/pulite.loilonote">
   ロイロノート・スクール版
 </a>
 
@@ -30,7 +30,7 @@ puliteの始まり、初代pulite。ロイロノート・スクールの機能�
 [web版](https://pulite.github.io/_/new)  
 1.webにアクセスする  
   
-<a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/new/d/dt/dt.txt?download" download>
+<a href="https://raw.githubusercontent.com/pulite/_/refs/heads/main/new/d/dt/dt.txt">
   web dt版
 </a>
 
@@ -38,5 +38,5 @@ puliteの始まり、初代pulite。ロイロノート・スクールの機能�
 2.ファイルの中身をコピーする  
 3.url欄にペーストする
 
-
+***
 (C) 2025 pulite/tasuraringu. All Rights Reserved.
