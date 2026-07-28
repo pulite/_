@@ -11,6 +11,7 @@ japan
 ##### " pulite.world (world)
 *未完成の物には"が付いています
 ***
+***
 ![Original pulite](https://github.com/pulite/_/blob/main/Original/logo.png)
 #### [初代pulite](https://pulite.github.io/_/Original) / 2025
 puliteの始まり、初代pulite。ロイロノート・スクールの機能をフル活用し、ロイロノート内でチャットできるようにしたもの。
