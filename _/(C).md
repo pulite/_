@@ -1,1 +1,1 @@
-(C) 2026 pulite/tasuraringu. All Rights Reserved.
+(C) 2025 pulite/tasuraringu. All Rights Reserved.
