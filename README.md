@@ -1,4 +1,4 @@
-![icon](https://github.com/pulite/_/blob/main/_/Rpng/icon.png)
+![icon](https://github.com/pulite/_/blob/main/icon.png)
 # [pulite](https://pulite.github.io/_)
 ## tasuraringu
 japan
