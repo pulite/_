@@ -1,1 +1,1 @@
-[main_download](https://pulite.github.io/_/debug.html)
+[debug]([https://pulite.github.io/_/debug.html](https://github.com/pulite/_/archive/refs/heads/main.zip"))
