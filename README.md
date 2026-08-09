@@ -18,10 +18,14 @@ japan
 ***
 ***
 ![Original pulite](https://github.com/pulite/_/blob/main/Original/logo.png)
-#### [初代pulite](https://pulite.github.io/_/Original) / 2025
+#### [初代pulite](https://pulite.github.io/_/Original) Release / 2025
+[Releaseに行く](https://github.com/pulite/_/tree/main#%E5%88%9D%E4%BB%A3pulite--2025)
 puliteの始まり、初代pulite。ロイロノート・スクールの機能をフル活用し、ロイロノート内でチャットできるようにしたもの。
 #### バージョン
 ##### ロイロノート・スクール版
+
+1.[ファイル](https://github.com/pulite/_/releases/download/Original/Original.pulite.loilonote)をダウンロードする  
+2.ロイロノート・スクールにインポートする
 
 1.[ファイル](https://github.com/pulite/_/raw/refs/heads/main/Original/d/loilonote/pulite.loilonote)をダウンロードする  
 2.ロイロノート・スクールにインポートする
