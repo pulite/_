@@ -19,7 +19,7 @@ japan
 ***
 ![Original pulite](https://github.com/pulite/_/blob/main/Original/logo.png)
 #### [初代pulite](https://pulite.github.io/_/Original) Release / 2025
-[Releaseに行く](https://github.com/pulite/_/tree/main#%E5%88%9D%E4%BB%A3pulite--2025)  
+[Releaseに行く](https://github.com/pulite/_/releases#release-Original)  
 puliteの始まり、初代pulite。ロイロノート・スクールの機能をフル活用し、ロイロノート内でチャットできるようにしたもの。
 #### バージョン
 ##### ロイロノート・スクール版
@@ -32,8 +32,8 @@ puliteの始まり、初代pulite。ロイロノート・スクールの機能�
 ***
 ![new pulite](https://github.com/pulite/_/blob/main/new/logo.png)
 #### [新・pulite](https://pulite.github.io/_/new) / 2026
+[Releaseに行く](https://github.com/pulite/_/releases#release-new)  
 初めてのpuliteの次回作。標準のweb化によって、自由度が大幅に上がる。
-"
 #### バージョン
 ##### web版
 1.[web](https://pulite.github.io/_/new)にアクセスする  
