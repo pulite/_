@@ -4,6 +4,7 @@
 japan
 
 ### puliteへようこそ!
+現在このサービスはちゃんと開発中です
 #### 現在のpuliteシリーズ
 ##### 初代pulite (Original)
 ##### " 新・pulite (new)
