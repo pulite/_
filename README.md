@@ -27,8 +27,6 @@ puliteの始まり、初代pulite。ロイロノート・スクールの機能�
 1.[ファイル](https://github.com/pulite/_/releases/download/Original/Original.pulite.loilonote)をダウンロードする  
 2.ロイロノート・スクールにインポートする
 
-1.[ファイル](https://github.com/pulite/_/raw/refs/heads/main/Original/d/loilonote/pulite.loilonote)をダウンロードする  
-2.ロイロノート・スクールにインポートする
 ***
 ![new pulite](https://github.com/pulite/_/blob/main/new/logo.png)
 #### [新・pulite](https://pulite.github.io/_/new) / 2026
