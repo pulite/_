@@ -9,7 +9,9 @@ japan
 2025年の初代puliteから始まった、人と人を繋ぐサービスです!  
 色んな物があります。
 
-#### [現在のpuliteシリーズ](https://github.com/pulite/_/wiki)
+[wikiに行く]((https://github.com/pulite/_/wiki))
+
+#### 現在のpuliteシリーズ
 ##### [初代pulite (Original)](https://github.com/pulite/_/wiki/Original-pulite)
 ##### [" 新・pulite (new)](https://github.com/pulite/_/wiki/new-pulite)
 ##### [" pulite.home (home)]()
