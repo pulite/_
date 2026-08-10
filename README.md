@@ -1,6 +1,7 @@
-![icon](https://github.com/pulite/_/blob/main/icon.png)
+
+Original![icon](https://github.com/pulite/_/blob/main/icon.png)
 # [pulite](https://pulite.github.io/_)
-## tasuraringu
+## [tasuraringu](https://github.com/tasura-tr)
 japan
 
 ### puliteへようこそ!
