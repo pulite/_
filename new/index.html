@@ -120,6 +120,7 @@
         
         async function a() {
           let text = document.getElementById("chat").value
+          let name = document.getElementById("name").value
           const { data, error } = await supabase
             .from('new')
             .insert([
@@ -132,7 +133,7 @@
             console.log(data);
           }
         }
-        sendMessage(text);
+        sendMessage(text + "." + name + "," + "00:00");
     </script>
   </body>
 </html>
