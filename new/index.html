@@ -146,18 +146,21 @@
         }
         
         async function get_a() {
-          let { data, error } = await supabase
+          function get_a1 () {
+            let { data, error } = await supabase
             .from('new')
             .select('*')
             .order('id', { ascending: false });
         
           let messages = data.map(row => row.chattext).join('\n');
           document.getElementById("chatbox").innerText = messages;
-          { data, error } = await supabase
-            .from('new')
+          }
+          
+         let { data, error } = await supabase
+            .from('kiku')
             .select('*')
             .order('id', { ascending: false });
-          messages = data.map(row => row.kousiki).join('\n');
+          let messages = data.map(row => row.kousiki).join('\n');
           document.getElementById("k1").innerText = messages;
           messages = data.map(row => row.kimagure).join('\n');
           document.getElementById("k2").innerText = messages;
