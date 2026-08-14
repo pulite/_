@@ -144,7 +144,8 @@
         async function get() {
           const { data, error } = await supabase
             .from('new')
-            .select('*');
+            .select('*')
+            .order('id', { ascending: true });
         
           if (error) {
             console.error(error);
