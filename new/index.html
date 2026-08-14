@@ -181,7 +181,7 @@
             return;
           }
         
-          const messages = data.map(row => row.kousiki).join('\n');
+          let messages = data.map(row => row.kousiki).join('\n');
           document.getElementById("k1").innerText = messages;
           messages = data.map(row => row.kimagure).join('\n');
           document.getElementById("k2").innerText = messages;
