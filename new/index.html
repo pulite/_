@@ -146,14 +146,14 @@
         }
         
         async function get_a() {
-          const { data, error } = await supabase
+          let { data, error } = await supabase
             .from('new')
             .select('*')
             .order('id', { ascending: false });
         
           let messages = data.map(row => row.chattext).join('\n');
           document.getElementById("chatbox").innerText = messages;
-          const { data, error } = await supabase
+          let { data, error } = await supabase
             .from('new')
             .select('*')
             .order('id', { ascending: false });
