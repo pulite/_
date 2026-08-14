@@ -136,13 +136,22 @@
             .insert([
               { chattext: text }
             ]);
-        
-          if (error) {
-            console.error(error.message);
-          } else {
-            console.log(data);
-          }
-        }
+          async function get () {
+            const { data, error } = await supabase
+              .from('new');
+              .select('*');
+            document.getElementById("chatbox").innertext = data;
+          supabase
+            .channel("a-a")
+            .on(
+              'postgres_changes',
+              { event: 'INSERT', schema: 'public', table: 'new' },
+              (payload) => {
+                get();
+              }
+            )
+  .subscribe();
+            }
     </script>
   </body>
 </html>
