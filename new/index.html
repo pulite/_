@@ -151,13 +151,12 @@
             .select('*')
             .order('id', { ascending: false });
         
-          if (error) {
-            console.error(error);
-            return;
-          }
-        
           let messages = data.map(row => row.chattext).join('\n');
           document.getElementById("chatbox").innerText = messages;
+          const { data, error } = await supabase
+            .from('new')
+            .select('*')
+            .order('id', { ascending: false });
           messages = data.map(row => row.kousiki).join('\n');
           document.getElementById("k1").innerText = messages;
           messages = data.map(row => row.kimagure).join('\n');
