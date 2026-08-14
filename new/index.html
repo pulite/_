@@ -124,7 +124,13 @@
         async function a_h() {
           let text = document.getElementById("chat").value
           let name = document.getElementById("name").value
-          text = text + "." + name + "," + "00:00"
+          let now = new Date();
+          let year = now.getFullYear();）
+          let date = `${now.getMonth() + 1}/${now.getDate()}`;
+          let hours = String(now.getHours()).padStart(2, '0');
+          let minutes = String(now.getMinutes()).padStart(2, '0');
+          let time = `${year}/${date},${hours}:${minutes}`;
+          text = text + "." + name + "," + time
           const { data, error } = await supabase
             .from('new')
             .insert([
