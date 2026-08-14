@@ -145,7 +145,7 @@
             ]);
         }
         
-        async function get() {
+        async function get_a() {
           const { data, error } = await supabase
             .from('new')
             .select('*')
@@ -159,14 +159,41 @@
           const messages = data.map(row => row.chattext).join('\n');
           document.getElementById("chatbox").innerText = messages;
         }
-        get();
+        get_a();
         supabase
           .channel("a-a")
           .on(
             'postgres_changes',
             { event: 'INSERT', schema: 'public', table: 'new' },
             (payload) => {
-              get();
+              get_a();
+            }
+          )
+  .subscribe();
+       async function get_b() {
+          const { data, error } = await supabase
+            .from('kiku')
+            .select('*')
+            .order('id', { ascending: false });
+        
+          if (error) {
+            console.error(error);
+            return;
+          }
+        
+          const messages = data.map(row => row.kousiki).join('\n');
+          document.getElementById("k1").innerText = messages;
+          messages = data.map(row => row.kimagure).join('\n');
+          document.getElementById("k2").innerText = messages;
+        }
+        get_b();
+        supabase
+          .channel("n-n")
+          .on(
+            'postgres_changes',
+            { event: 'INSERT', schema: 'public', table: 'new' },
+            (payload) => {
+              get_b();
             }
           )
   .subscribe();
