@@ -115,7 +115,24 @@
       }
     </style>
     <script>
-      
+        import { createClient } from '@supabase/supabase-js'
+        const supabase = createClient('https://qoqojjjqfcsjdtddpvmu.supabase.co', 'sb_publishable_-uoXeJ0BrL3b83cXsd2l7g_qxI5h4ki')
+        
+        async function a() {
+          let text = document.getElementById("chat").value
+          const { data, error } = await supabase
+            .from('new')
+            .insert([
+              { chattext: text }
+            ]);
+        
+          if (error) {
+            console.error(error.message);
+          } else {
+            console.log(data);
+          }
+        }
+        sendMessage(text);
     </script>
   </body>
 </html>
