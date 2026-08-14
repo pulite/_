@@ -145,7 +145,7 @@
           const { data, error } = await supabase
             .from('new')
             .select('*')
-            .order('id', { ascending: true });
+            .order('id', { ascending: false });
         
           if (error) {
             console.error(error);
@@ -153,7 +153,7 @@
           }
         
           const messages = data.map(row => row.chattext).join('\n');
-          document.getElementById("chatbox").innerText = messages; //
+          document.getElementById("chatbox").innerText = messages;
         }
         get();
         supabase
