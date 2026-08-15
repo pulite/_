@@ -191,34 +191,6 @@
             }
           )
   .subscribe();
-
-      // エラー表示用の関数（#chatbox または指定の要素に追記）
-function showDebugError(msg) {
-  const target = document.getElementById("chatbox"); // 表示させたい要素のID
-  if (target) {
-    target.innerText += "\n[ERROR] " + msg;
-  }
-}
-
-// 1. 通常のJS実行エラー（構文エラーや未定義エラーなど）をキャッチ
-window.onerror = function(message, source, lineno, colno, error) {
-  showDebugError(`${message} (${lineno}行目)`);
-  return false;
-};
-
-// 2. 非同期処理（Promise / async-await）で発生したエラーをキャッチ
-window.onunhandledrejection = function(event) {
-  showDebugError(`非同期エラー: ${event.reason?.message || event.reason}`);
-};
-
-// 3. console.error() で出力されたログを横取りして表示
-const originalConsoleError = console.error;
-console.error = function(...args) {
-  // 本来のコンソール出力も実行
-  originalConsoleError.apply(console, args);
-  // innerTextに表示
-  showDebugError(args.map(a => (typeof a === 'object' ? JSON.stringify(a) : a)).join(' '));
-};
     </script>
   </body>
 </html>
