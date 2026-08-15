@@ -1,4 +1,4 @@
-![icon](https://github.com/pulite/_/blob/main/icon.png)
+![icon](https://github.com/pulite/_/blob/main/icon.ico)
 # [pulite](https://pulite.github.io/_)
 ## [tasuraringu](https://github.com/tasura-tr)
 japan
