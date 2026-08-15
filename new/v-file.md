@@ -1,1 +1,1 @@
-ベータ版 - 新・pulite
+β版 - 新・pulite
