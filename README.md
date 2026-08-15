@@ -14,6 +14,7 @@ japan
 #### 現在のpuliteシリーズ
 ##### [初代pulite (Original)](https://github.com/pulite/_/wiki/Original-pulite)
 ##### [新・pulite (new)](https://github.com/pulite/_/wiki/new-pulite)
+##### [R・pulite (R)]()
 ##### [" pulite.home (home)]()
 ##### [" pulite.world (world)]()
 *未完成の物には"が付いていま
