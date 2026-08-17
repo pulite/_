@@ -123,7 +123,7 @@
       }
     </style>
     <script type="module">
-        let URL = "https://script.google.com/macros/s/AKfycbzDVG9e9LEVe_npXoudtViPn5kFZlnSHmDo0h_34QjXMDXNGkgSeWAUVyisxV6XS01I/exec";
+        let URL = "https://script.google.com/macros/s/AKfycbxCc9l_dajdog5KZ44-204N-UXr52Dmu7aG3zrtaOmAGIJfm2tHobSLlczYF4nHFE3U/exec";
         function a() {
           a_h()
         }
@@ -132,7 +132,7 @@
         async function a_h() {
           let text = document.getElementById("chat").value
           let name = document.getElementById("name").value
-          await fetch(`${URL}?post=true&text=${text}&name=${name}`);
+          let run = await fetch(`${URL}?post=true&text=${text}&name=${name}`);
         }
         
         async function get_a() {        
@@ -141,9 +141,9 @@
         }
         get_a();
       async function get_b() {
-            let messages = await fetch(`${URL}?post=no`)[1];
+            let messages = await fetch(`${URL}?post=no`).split('\n')[1];
             document.getElementById("k1").innerText = messages;
-            messages = await fetch(`${URL}?post=no`)[2];
+            messages = await fetch(`${URL}?post=no`).split('\n')[2];
             document.getElementById("k2").innerText = messages;
         }
         get_b();
