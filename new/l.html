@@ -136,14 +136,14 @@
         }
         
         async function get_a() {        
-            let messages = await fetch(`${URL}?post=no`)[0];
+            let messages = await fetch(`${URL}?post=no`).text().split('\n')[0];
             document.getElementById("chatbox").innerText = messages;
         }
         get_a();
       async function get_b() {
-            let messages = await fetch(`${URL}?post=no`).split('\n')[1];
+            let messages = await fetch(`${URL}?post=no`).text().split('\n')[1];
             document.getElementById("k1").innerText = messages;
-            messages = await fetch(`${URL}?post=no`).split('\n')[2];
+            messages = await fetch(`${URL}?post=no`).text().split('\n')[2];
             document.getElementById("k2").innerText = messages;
         }
         get_b();
