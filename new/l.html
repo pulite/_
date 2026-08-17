@@ -123,8 +123,7 @@
       }
     </style>
     <script type="module">
-        import { createClient } from 'https://esm.sh/@supabase/supabase-js'
-        const supabase = createClient('https://qoqojjjqfcsjdtddpvmu.supabase.co', 'sb_publishable_-uoXeJ0BrL3b83cXsd2l7g_qxI5h4ki');
+        let URL = "https://script.google.com/macros/s/AKfycbzDVG9e9LEVe_npXoudtViPn5kFZlnSHmDo0h_34QjXMDXNGkgSeWAUVyisxV6XS01I/exec";
         function a() {
           a_h()
         }
@@ -133,63 +132,21 @@
         async function a_h() {
           let text = document.getElementById("chat").value
           let name = document.getElementById("name").value
-          let now = new Date();
-          let year = now.getFullYear();
-          let date = `${now.getMonth() + 1}/${now.getDate()}`;
-          let hours = String(now.getHours()).padStart(2, '0');
-          let minutes = String(now.getMinutes()).padStart(2, '0');
-          let time = `${year}/${date},${hours}:${minutes}`;
-          text = text + "." + name + "," + time
-        
-          const { data, error } = await supabase
-            .from('new')
-            .insert([
-              { chattext: text }
-            ]);
+          await fetch(`${URL}?post=true&text=${text}&name=${name}`);
         }
         
-        async function get_a() {
-            let { data, error } = await supabase
-            .from('new')
-            .select('*')
-            .order('id', { ascending: false });
-          
-            let messages = data.map(row => row.chattext).join('\n');
+        async function get_a() {        
+            let messages = await fetch(`${URL}?post=no`)[0];
             document.getElementById("chatbox").innerText = messages;
         }
         get_a();
-        supabase
-          .channel("a-a")
-          .on(
-            'postgres_changes',
-            { event: 'INSERT', schema: 'public', table: 'new' },
-            (payload) => {
-              get_a();
-            }
-          )
-  .subscribe();
       async function get_b() {
-            let { data, error } = await supabase
-            .from('kiku')
-            .select('*')
-            .order('id', { ascending: false });
-          
-            let messages = data.map(row => row.kousiki).join('\n');
+            let messages = await fetch(`${URL}?post=no`)[1];
             document.getElementById("k1").innerText = messages;
-            messages = data.map(row => row.kimagure).join('\n');
+            messages = await fetch(`${URL}?post=no`)[2];
             document.getElementById("k2").innerText = messages;
         }
         get_b();
-        supabase
-          .channel("n-n")
-          .on(
-            'postgres_changes',
-            { event: 'INSERT', schema: 'public', table: 'kiku' },
-            (payload) => {
-              get_b();
-            }
-          )
-  .subscribe();
       setInterval(() => {
         get_a();
         get_b();
