@@ -136,20 +136,24 @@
         }
         
         async function get_a() {        
-            let messages = await fetch(`${URL}?post=no`).text().split('\n')[0];
+            let messages = await messagess.text();
+            messages = messages.split('\n')[0];
             document.getElementById("chatbox").innerText = messages;
         }
         get_a();
       async function get_b() {
             let messages = await fetch(`${URL}?post=no`).text().split('\n')[1];
+            messages = await messagess.text();
+            messages = messages.split('\n')[1];
             document.getElementById("k1").innerText = messages;
-            messages = await fetch(`${URL}?post=no`).text().split('\n')[2];
+            messages = await fetch(`${URL}?post=no`);
+            messages = await messagess.text();
+            messages = messages.split('\n')[2];
             document.getElementById("k2").innerText = messages;
         }
         get_b();
       setInterval(() => {
         get_a();
-        get_b();
       }, 4000);
     </script>
   </body>
