@@ -3,9 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="refresh" content="0; url=https://github.com/pulite/_">
-        <title>pulite/_</title>
+        <title>pulite</title>
     </head>
     <body>
+        <script>
+            let ha = new URLSearchParams(location.search)
+            function g(a) {
+                return ha.get(a);
+            }
+            function gm(a) {
+                return ha.has(a);
+            }
+            function t(url) {
+                location.href = url;
+            }
+            if (gm("url")) {
+                t(g("url"));
+            } else if (g("z") == "ll") {
+                t("https://pulite.github.io/_/login.html");
+            } else if (g("z") == "o") {
+                t("https://pulite.github.io/_/d.html?ly=" + g("ly"));
+            } else if (gm("s")) {
+                t("https://github.com/pulite/_/releases#release-" + g("s"));
+            } else {
+                t("https://github.com/pulite/_");
+            }
+        </script>
     </body>
 </html>
