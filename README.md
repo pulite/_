@@ -6,7 +6,7 @@ japan
 ### puliteへようこそ!
 現在このサービスはちゃんと開発中です
 #### puliteとは？
-2025年の初代puliteから始まった、人と人を繋ぐサービスです!  
+2025年の初代puliteから始まった、人と人を繋ぐサービスです!、故ばSNS  
 色んな物があります。
 
 [wikiに行く](https://github.com/pulite/_/wiki)
